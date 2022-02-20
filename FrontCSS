@@ -1,0 +1,27 @@
+div{
+    color: red;
+    /*jika nama jenis font menggunkan spasi, maka jangan lupa tambahkan tanda petik*/
+    font-family: "Lucida Grande";
+    text-align: center;
+}
+
+p{
+    /*satuan untuk menetukan font-size aalah px*/
+    font-size: 12px;
+}
+
+/*misal ada kasus seperti dibawah*/
+/*maka yang menjadi selector yang akan ditetapkan nilai adalah tag <a>*/
+/*<h1><a href="https://student.ubm.ac.id/index.php">PORTAL UBM CHANDRA</a></h1> */
+a{
+    color: #0000ff;
+}
+
+p1{
+    background-color: #ffd800;
+}
+
+/*untuk mengeksekusi class diperlukan tanda . diawal*/
+.selected{
+    color: blue;
+}
